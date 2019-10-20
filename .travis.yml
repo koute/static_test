@@ -1,0 +1,10 @@
+language: rust
+
+dist: trusty
+sudo: false
+
+rust:
+  - nightly
+
+script:
+  - ./ci/run_tests.sh
